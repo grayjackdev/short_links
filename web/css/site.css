@@ -1,0 +1,11 @@
+
+.main-container {
+    height: 400px;
+    background-color: red;
+    padding-inline: 3px;
+}
+
+.block-form .submit-btn-wrapper {
+    padding-top: 1.5rem
+}
+
