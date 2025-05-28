@@ -33,6 +33,7 @@ RUN composer install --optimize-autoloader
 COPY docker/php/php.ini /usr/local/etc/php/conf.d/custom.ini
 
 RUN chown -R www-data:www-data /var/www/html
+RUN chmod -R 775 ./var/www/html/runtime ./var/www/html/web/assets
 USER www-data
 
 EXPOSE 9000
